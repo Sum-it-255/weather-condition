@@ -53,7 +53,7 @@ switch(weatherCondition) {
         weatherImg.src = "/images/snow.png";
         break;
     default:
-        weatherImg.src = "/images/default.png";
+        weatherImg.src = "/images/clear.png";
         break;
 }
 

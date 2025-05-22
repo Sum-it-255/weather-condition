@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Condition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 3rem; text-align: center;">Weather</h1>
+        <div class="inputfield">
+            <input type="text" id="city" placeholder="Enter city name" value="">
+        <button onclick="getWeather()"  class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+       <div class="image-info">
+    <img src="/images/cloud.png" alt="Weather">
+    <div class="location">
+        <div class="city-name">City</div>
+        <div class="country">Country</div>
+    </div>
+</div>
+
+
+        <div class="weatherdetail">
+            <div class="temp">_ _°C</div>
+        <div class="description">Sunny</div>
+        </div>
+        
+       <div class="weathercondition">
+    <div class="condition-block">
+        <i class="fa-solid fa-wind"></i>
+        <div class="value">_ _ Km/hr</div>
+        <div class="label">Wind Speed</div>
+    </div>
+    <div class="condition-block">
+        <i class="fa-solid fa-droplet"></i>
+        <div class="value">_ _%</div>
+        <div class="label">Humidity</div>
+    </div>
+</div>
+
+
+    </div>
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+
+<script src="https://kit.fontawesome.com/52e07d4b99.js" crossorigin="anonymous"></script>
+
+<footer>
+    <p style="font-size: 0.7rem; text-align: center; color: gray;">
+    Weather icons by <a href="https://fontawesome.com/" target="_blank" style="color: inherit;">Font Awesome</a>.
+</p>
+
+</footer>
+</body>
+</html>

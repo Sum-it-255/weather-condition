@@ -1,0 +1,96 @@
+body{
+height:100vh;
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+overflow: hidden;
+
+}
+.container{
+    height: 100vh;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+.inputfield input{
+    height: 1rem;
+    width: 15rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: aquamarine;
+    color: rgb(33, 33, 1);
+    font-size: medium;
+    border-radius: 5rem;
+}
+button{
+    border-radius: 20rem;
+    padding: 0.2rem;
+}
+
+img{
+    display: flex;
+    justify-self: center;
+    height:35vh;
+}
+
+.image-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-info img {
+    width: 100px;
+    height: auto;
+}
+
+.location {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.city-name, .country {
+    font-weight: bold;
+}
+
+.weatherdetail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.weathercondition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.condition-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.condition-block i {
+    font-size: 2.5rem;
+    color: #199cde;
+    margin-bottom: 0.5rem;
+}
+
+.condition-block .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.condition-block .label {
+    font-size: 1rem;
+    color: gray;
+}
